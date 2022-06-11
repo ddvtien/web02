@@ -162,6 +162,7 @@ nav .tel span{font-size: 12px;display: block;letter-spacing: 0.05em;padding-left
 .inner05{width: 865px;margin: 0 auto;}
 .inner06{width: 1200px;margin: 0 auto;}
 .inner07{width: 1334px;margin: 0 auto;}
+.inner08{width: 1600px;margin: 0 auto;}
 .ttl{}
 .ttl h3{line-height: 1.4em;font-size: 30px;color:#073265;margin-bottom: 0px;}
 .ttl p{font-size: 16px;font-weight: bold;letter-spacing: 0.075em}
@@ -284,7 +285,7 @@ B58B32
 .invisalign_ttl02_sub02{font-weight: 300;color: #D5AD58;position: relative;}
 .invisalign_ttl02_subct{position: relative;}
 .invisalign_ttl02_sub01{position: absolute;content: "";top: -40px;left: 50%;transform: translateX(-50%);font-size: 18px;font-weight: 200;width: 100%;letter-spacing: 0.5em;}
-.section_01, .treatment, .disjointed, .orthodontic{display: none;}
+.section_01, .treatment, .disjointed{display: none;}
 
 
 /*==========*/
@@ -394,10 +395,111 @@ B58B32
 .case_info_it dd{width: calc(100% - 112px);color: #fff;font-weight: 200;font-size: 14px;border-left: 1px solid #fff;padding: 5px 0 5px 30px;}
 .case_info.mb0{margin-bottom: 0;}
 /*case*/
-
-.reason05{width: 100%;background: #141b2b;}
+.reason{padding: 100px 0;background:#141b2b;}
+.reason05{width: 100%;background: #141b2b;padding: 100px 0;position: relative;z-index: 1;}
+.reason05:before{position: absolute;content: "";width: 1600px;height: 450px;background: #232e42;top: 0;left: 0;z-index: -1;}
+.reason05_ct{display: flex;}
 .reason05_it{width: calc((100% - 99px) / 2);margin-right: 99px;}
 .reason05_it:last-child{margin-right: 0;}
+.reason05_ttl_sub{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;padding-bottom: 0px;text-align: center;}
+.reason05_ttl_sub01:before{position: absolute;content: "";width: 100px;height: 1px;background:#D5AD58;bottom: 0;left: calc(50% - 50px);}
+.reason05_ttl02{font-size: 42px;line-height: 1.5em;text-align: center;color: #fff;font-weight: 200;margin-bottom: 20px;}
+.reason05_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason05_img{margin-bottom: 30px;}
+.reason05_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 2em;}
+
+
+
+
+
+
+
+.reason01_ttl{font-size: 56px;font-weight: 200;color: #fff;text-align: center;margin-bottom: 90px;line-height: 1.4em;}
+.reason_ttl_sub01{font-weight: 300;color:#D5AD58;}
+.reason01_ttl_sub{margin-bottom: 60px;}
+.reason01_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
+.reason01_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
+.reason01_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
+.reason01_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;}
+.reason01_ct01 .reason01_it:nth-child(1), .reason01_ct01 .reason01_it:nth-child(2), .reason01_ct01 .reason01_it:nth-child(4){width: 700px;}
+.reason01_ct01{position: relative;width: 1780px;margin-left: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason01_ct01 .reason01_it:nth-child(3){position: absolute;right: 0;top: 0;}
+.reason01_bx{width: 100%;}
+.reason01_l{margin-right: 100px;}
+
+
+.reason01_bx02{display: flex;width: 1620px;margin: 0 auto;align-items: center;}
+.reason01_bx02 .reason01_bx02_l{width: 620px;margin-right: 160px;}
+.reason01_bx02 .reason01_bx02_r{width: calc(100% - 780px);max-width: 715px;}
+
+
+.reason02{position: relative;z-index: 1;}
+.reason02:before{position: absolute;content: "";width: 1600px;top: 150px;right:0;background: #232e42;z-index: -1;height: 100%;}
+.reason02_bx{position: relative;width: 100%;}
+.reason02_logo{text-align: right;width: 100%;}
+.reason02_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
+.reason02_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
+.reason02_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
+.reason02_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason01_ct02{position: relative;width: 1900px;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason01_r{width: 790px;}
+.reason02_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;max-width: 690px;}
+.reason02_bx02{width: 1616px;margin: 0 auto;display: flex;align-items: center;}
+.reason02_bx02 .reason02_bx02_l{width: 620px;order: 2;margin-left: 150px;}
+.reason02_bx02 .reason02_bx02_r{order: 1;width: 840px;padding-left: 150px;}
+
+/*reason03*/
+.reason03{padding: 200px 0 100px 0;}
+.reason03_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
+.reason03_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
+.reason03_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
+.reason03_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;}
+.reason03_ct .reason03_it:nth-child(1), .reason03_ct .reason03_it:nth-child(2), .reason03_ct .reason03_it:nth-child(4){width: 700px;}
+.reason03_ct{position: relative;width: 1780px;margin-left: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason03_ct .reason03_it:nth-child(3){position: absolute;right: 0;top: 0;}
+.reason03_bx{width: 100%;}
+.reason03_l{margin-right: 100px;}
+.reason03_ttl02_sub{color: #D5AD58;font-weight: 300;}
+
+/*reason04*/
+.reason04_ct{position: relative;width: 1940px;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason04_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
+.reason04_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
+.reason04_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
+.reason04_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason04_bx .reason04_l{width: 790px;order: 2;margin-left: 104px;}
+.reason04_bx .reason04_r{order: 1;width: 1000px;}
+
+
+.reason04_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;max-width: 690px;}
+/*end reason04*/
+
+/*=============orthodontic===================*/
+
+.orthodontic{background:#141b2b;padding: 150px 0;}
+.orthodontic_ttl01_sub01{position: relative;}
+.orthodontic_ttl01_sub02{position: absolute;content: "";top: -40px;left: 50%;transform: translateX(-50%);font-size: 18px;font-weight: 200;width: 100%;letter-spacing: 0.5em;line-height: 1.4em;}
+.orthodontic_ttl01{font-size: 56px;color: #fff;font-weight: 200;text-align: center;line-height: 1.5em;}
+.orthodontic_ttl01_sub03{color: #D5AD58;font-weight: 300;}
+.orthodontic_ttl01{margin-bottom: 40px;}
+.orthodontic_txt{max-width: 1000px;margin: 0 auto;font-size: 15px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 65px;}
+.orthodontic_bx02{display: flex;}
+.orthodontic_bx02_it{width: calc(100% / 2);}
+.orthodontic_bx02_it:nth-child(1){background: url("../images/idx_img06.jpg") no-repeat;background-size: cover;padding:50px 35px 70px 310px;}
+.orthodontic_bx02_it:nth-child(2){background: url("../images/idx_img07.jpg") no-repeat;background-size: cover;padding:50px 270px 70px 35px;}
+.orthodontic_ttl02{font-size: 56px;color: #000;text-align: center;font-weight: 200;letter-spacing: -0.1em;margin-bottom: 35px;line-height: 1.4em;}
+.orthodontic_ttl02_sub01{font-weight: 300;}
+.orthodontic_list01 li{font-size: 15px;font-weight: 300;line-height: 1.5em;position: relative;padding-left: 20px;}
+.orthodontic_list01 li:before{position: absolute;content: "";width: 10px;height: 10px;left: 0;top: 8px;background: #000;}
+.orthodontic_ttl02_sub01.orthodontic_ttl03_sub01{color: #D5AD58;}
+.orthodontic_bx03{padding: 150px 0 0 0;}
+.orthodontic_bx03_ttl01{font-size: 70px;text-align: center;color: #fff;font-weight: 200;margin-bottom: 70px;}
+
+.orthodontic_bx03_ttl01_sub01{font-weight: 300;color:#D5AD58;}
+.orthodontic_bx03_ttl02{font-size: 50px;text-align: center;color: #fff;font-weight: 200;margin-bottom: 40px;line-height: 1.6em;}
+.orthodontic_bx03_ttl02_sub01{font-weight: 300;color: #D5AD58;}
+.orthodontic_txt.mb0{margin-bottom: 0;}
 
 
 
@@ -411,7 +513,7 @@ B58B32
 
 
 
-
+/*=============orthodontic===================*/
 
 
 
