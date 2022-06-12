@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import "base.css";
 @import "fonts.css";
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');*/
 /*==========================================================================*/
 /*//////////////////////////////////////////////////////////////////////////*/
 /*//////                                                              //////*/
@@ -158,11 +158,13 @@ nav .tel span{font-size: 12px;display: block;letter-spacing: 0.05em;padding-left
 .inner01{width: 1580px;margin: 0 auto;}
 .inner02{width: 1290px;margin: 0 auto;}
 .inner03{width: 1536px;margin: 0 auto;}
-.inner04{width: 1280px;margin: 0 auto;}
+.inner04{width: 1330px;margin: 0 auto;}
 .inner05{width: 865px;margin: 0 auto;}
 .inner06{width: 1200px;margin: 0 auto;}
 .inner07{width: 1334px;margin: 0 auto;}
 .inner08{width: 1600px;margin: 0 auto;}
+.inner09{width: 1243px;margin: 0 auto;}
+.inner10{width: 1330px;margin: 0 auto;}
 .ttl{}
 .ttl h3{line-height: 1.4em;font-size: 30px;color:#073265;margin-bottom: 0px;}
 .ttl p{font-size: 16px;font-weight: bold;letter-spacing: 0.075em}
@@ -179,7 +181,7 @@ B58B32
 /*section01*/
 .section_01{background: #141b2b;}
 .section_01_bx{display: flex;}
-.sec_txt{font-family:"Noto Sans JP", sans-serif;color: #fff;line-height: 3.3em;}
+.sec_txt{font-family:"Noto Sans JP", sans-serif;color: #fff;line-height: 3.3em;font-size: 18px;margin-bottom: 30px;}
 .section_01_l{width: 546px; margin-right: 114px;}
 .section_01_r{width: calc(100% - 660px);}
 .sec01_img{position: relative;}
@@ -224,17 +226,17 @@ B58B32
 .ama_dental_ls li{font-size: 18px;color: #fff;font-weight: 200;position: relative;padding-left: 20px;}
 .ama_dental_ls li:before{position: absolute;content: "";width: 10px;height: 10px;background: #D5AD58;top: 50%;left: 0;transform: translateY(-50%);}
 .ama_dental_ls li:first-child{margin-right: 20px;}
-.ama_dental_sub{font-size: 15px;color: #fff;text-align: center;background: #242E43;padding: 13px 5px;margin-bottom: 20px;}
-.logo{margin-bottom: 20px;}
-.ama_dental_add dt, .ama_dental_add dd{font-size: 15px;font-weight: 200;color: #fff;}
+.ama_dental_sub{font-size: 15px;color: #fff;text-align: center;background: #242E43;padding: 13px 5px;margin-bottom: 15px;}
+.logo{margin-bottom: 20px;text-align: center;}
+.ama_dental_add dt, .ama_dental_add dd{font-size: 15px;font-weight: 200;color: #fff;padding: 0 8px;letter-spacing: 0.2px;line-height: 1.6em;}
 
 /*advise_email*/
-.advise_email{padding: 100px 0;background: #141b2b;}
-.advise_email_ttl{text-align: center;font-size: 56px;color:#fff;font-weight: 200;margin-bottom: 50px;}
-.advise_email_ttl_sub{font-weight: 300;color: #D5AD58;}
+.advise_email{padding: 100px 0 27px 0;background: #141b2b;}
+.advise_email_ttl{text-align: center;font-size: 56px;color:#fff;font-weight: 200;margin-bottom: 43px;}
+.advise_email_ttl_sub{font-weight: 300;color: #D5AD58;font-family: "Noto Sans JP DemiLight";}
 .advise_email_txt{font-size: 15px;color: #fff;text-align: center;line-height: 2em;font-weight: 200;}
-.mail_open{width: 1000px;margin: 0 auto;border: 1px solid #D5AD58;padding: 70px 0 60px 0;}
-.txt_open{font-size: 30px;color: #fff;text-align: center;font-weight: 300;margin-bottom: 50px;}
+.mail_open{width: 1000px;margin: 0 auto;border: 1px solid #D5AD58;padding: 58px 0 60px 0;}
+.txt_open{font-size: 30px;color: #fff;text-align: center;font-weight: 300;margin-bottom: 41px;}
 .txt_close{display: none;}
 .open_box{max-width: 620px;margin: 0 auto;}
 .advise_email_ls{padding-left: 25px;margin-bottom: 35px;}
@@ -243,14 +245,14 @@ B58B32
 .advise_email_ls dt:before{position: absolute;content: "";width: 10px;height: 10px;left: -25px;top: calc(50% - 5px);background:#D5AD58;}
 .advise_email_ls dd{color: #fff;}
 .advise_email_ls:last-child{margin-bottom: 0;}
-.advise_email_txt_mb{margin-bottom: 60px;}
-.mail_info{width: 1000px;margin: 0 auto 60px auto;border: 1px solid #D5AD58;padding: 70px 100px;}
-.mail_contact_ttl{font-size: 30px;text-align: center;color: #D5AD58;margin-bottom: 55px;font-weight: 300;}
-.mail_contact_txt{font-size: 15px;font-weight: 200;line-height: 2em;margin-bottom: 65px;color: #fff;}
-.advise_email_txt02{font-size: 15px;font-weight: 200;line-height: 2em;margin:30px 0 70px 0;color: #D5AD58;text-align: center;}
+.advise_email_txt_mb{margin-bottom: 52px;}
+.mail_info{width: 1200px;margin: 0 auto 58px auto;border: 1px solid #D5AD58;padding: 70px 100px 99px 70px;}
+.mail_contact_ttl{font-size: 30px;text-align: center;color: #D5AD58;margin-bottom: 46px;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
+.mail_contact_txt{font-size: 15px;font-weight: 200;line-height: 2em;margin-bottom: 53px;color: #fff;}
+.advise_email_txt02{font-size: 15px;font-weight: 200;line-height: 2em;margin:13px 0 63px 0;color: #D5AD58;text-align: center;}
 .mail_info_ct .mail_contact_ls:first-child{margin-bottom: 50px;}
-.mail_contact_ls dt{color: #D5AD58;font-size: 16px;margin-bottom: 20px;font-weight: 300;}
-.mail_contact_ls dd{color: #fff;font-size: 16px;font-weight: 200;}
+.mail_contact_ls dt{color: #D5AD58;font-size: 16px;margin-bottom: 12px;font-weight: 300;}
+.mail_contact_ls dd{color: #fff;font-size: 16px;font-weight: 200;line-height: 1.8em;}
 .mail_contact_it li{font-size: 15px;font-weight: 200;line-height: 2em;}
 .advise_email_btn{display: flex;justify-content: center;}
 .advise_email_btn a{width: 320px;font-size: 14px;color: #fff;font-weight: 200;text-align: center;border-radius: 35px;line-height: 70px;background: #445475;display: block; position: relative;}
@@ -272,61 +274,61 @@ B58B32
 
 
 /*=========*/
-.invisalign{background: #141b2b;padding: 100px 0;}
-.invisalign_ttl{font-size: 56px;color: #fff;font-weight: 200;text-align: center;margin-bottom: 55px;}
-.invisalign_ttl_sub{color:#D5AD58;font-weight: 300;}
+.invisalign{background: #141b2b;padding: 97px 0 96px 0;}
+.invisalign_ttl{font-size: 56px;color: #fff;font-weight: 200;text-align: center;margin-bottom: 42px;}
+.invisalign_ttl_sub{color:#D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .invisalign_txt{font-size: 18px;text-align: center;line-height: 2em;color: #fff;font-weight: 200;margin-bottom: 70px;}
-.invisalign_frame{background: #232e42;padding: 70px 94px;margin-bottom: 110px;}
+.invisalign_frame{background: #232e42;padding: 70px 94px;margin-bottom: 90px;}
 .invisalign_ls{display: flex;flex-wrap: wrap;}
 .invisalign_ls li{color: #fff;position: relative;width: calc((100% - 40px) / 3);margin-right: 20px;font-size: 18px;font-weight: 200;line-height: 2em;padding-left: 25px;margin-bottom: 10px;}
 .invisalign_ls li:nth-child(3n+3){margin-right: 0;}
 .invisalign_ls li:before{position: absolute;content: "";width: 10px;height: 10px;left: 0;top: calc(50% - 5px);background: #D5AD58;}
 .invisalign_ttl02{font-size: 40px;text-align: center;color: #fff;font-weight: 200;line-height: 1.5em;}
-.invisalign_ttl02_sub02{font-weight: 300;color: #D5AD58;position: relative;}
+.invisalign_ttl02_sub02{font-weight: 300;color: #D5AD58;position: relative;font-family: "Noto Sans JP DemiLight";}
 .invisalign_ttl02_subct{position: relative;}
 .invisalign_ttl02_sub01{position: absolute;content: "";top: -40px;left: 50%;transform: translateX(-50%);font-size: 18px;font-weight: 200;width: 100%;letter-spacing: 0.5em;}
-.section_01, .treatment, .disjointed{display: none;}
+
 
 
 /*==========*/
 
 .greeting{background: url("../images/greeting_bg_img.jpg") no-repeat;background-size: cover;padding: 100px 0;}
 .greeting_ttl{text-align: center;font-size: 56px;color: #141B2A;font-weight: 200;margin-bottom: 50px;}
-.greeting_ttl_sub{font-weight: 300;color: #B58B32;}
+.greeting_ttl_sub{font-weight: 300;color: #B58B32;font-family: "Noto Sans JP DemiLight";}
 .greeting_ct{display: flex;}
 .greeting_l{width: 500px;margin-right: 90px;}
 .greeting_r{width: calc(100% - 590px);}
-.greeting_img{margin-bottom: 30px;}
+.greeting_img{margin-bottom: 24px;}
 .greeting_txt_au{font-size: 18px;font-weight: 200;text-align: right;}
-.greeting_au{text-align: right;margin-bottom: 40px;}
+.greeting_au{text-align: right;margin-bottom: 26px;}
 .greeting_au_sub01{font-size: 18px;font-weight: 200;}
 .greeting_au_sub02{font-size: 30px;font-weight: 300;padding-left: 15px;}
 .greeting_txt{font-size: 15px;font-weight: 200;line-height: 2em;}
-.greeting_ttl02{font-size: 48px;color: #141B2A;line-height: 1.625em;font-weight: 200;margin-bottom: 50px;}
-.greeting_ttl02_sub01{color: #B58B32;font-weight: 300;letter-spacing: -0.1em;}
+.greeting_ttl02{font-size: 48px;color: #141B2A;line-height: 1.625em;font-weight: 200;margin-bottom: 6px;position: relative;top: -19px;left: -30px;}
+.greeting_ttl02_sub01{color: #B58B32;font-weight: 300;letter-spacing: -0.1em;font-family: "Noto Sans JP DemiLight";}
 .greeting_img02{margin: 65px 0 0 50px;}
 
 
 /*======*/
 
-.price{padding: 100px 0;background: #141b2b;}
-.price_bx{margin-bottom: 150px;}
-.price_ttl01{text-align: center;font-weight: 200;color: #fff;font-size: 56px;line-height: 1.42em;margin-bottom: 50px;}
-.price_ttl01_sub01{font-weight: 300;color: #B58B32;}
+.price{padding: 84px 0 98px 0;background: #141b2b;}
+.price_bx{margin-bottom: 108px;}
+.price_ttl01{text-align: center;font-weight: 200;color: #fff;font-size: 56px;line-height: 1.42em;margin-bottom: 33px;}
+.price_ttl01_sub01{font-weight: 300;color: #B58B32;font-family: "Noto Sans JP DemiLight";}
 .price_txt{font-size: 15px;text-align: left;line-height: 2em;color: #fff;font-weight: 200;max-width: 1000px;margin: 0 auto 70px auto;}
 .price_bx01{display: flex;}
 .price_bx01_l{width: 400px;margin-right: 144px;}
 
-.price_ct01{border: 1px solid #d5ad58;padding:60px 46px 30px 42px;margin-bottom: 40px;}
+.price_ct01{border: 1px solid #d5ad58;padding:60px 46px 44px 42px;margin-bottom: 35px;}
 
 .price_ct01_note{margin-bottom: 5px;}
 .price_ct01_note_sub{background: #b48b31;font-size: 30px;font-weight: 200;text-align: center;width: 240px;padding: 11px 0;display: block;color: #fff;margin: 0 auto;}
-.list_price01{max-width: 225px;margin: 0 auto;}
+.list_price01{max-width: 214px;margin: 0 auto;}
 .list_price01 li{font-size: 20px;color: #fff;padding-left: 20px;margin-bottom: 0;font-weight: 300;position: relative;line-height: 2.5em;letter-spacing: -0.1em;}
 .list_price01 li:before{position: absolute;content: "";width: 10px;height: 10px;left: 0;top: calc(50% - 5px);background: #D5AD58;}
-.price_ico_p{font-size: 56px;color: #D5AD58;font-weight: 200;text-align: center;}
+.price_ico_p{font-size: 56px;color: #D5AD58;font-weight: 200;text-align: center;line-height: 1.2em;margin-bottom: 0;}
 .price_txt01{text-align: center;}
-.price_txt01_sub01{font-size: 28px;font-weight: 200;color: #fff;}
+.price_txt01_sub01{font-size: 28px;font-weight: 200;color: #fff;line-height: 2.2em;}
 .price_txt01_sub02{font-family: 'Josefin Sans', sans-serif;font-weight: 300;font-size: 74px;line-height: 1em;color: #D5AD58;letter-spacing: 2px;}
 .price_txt01_sub03{font-weight: 200;color: #fff;font-size: 30px;padding-left: 10px;}
 .price_txt02{font-size: 15px;color: #fff;line-height: 2em;font-weight: 200;}
@@ -343,22 +345,22 @@ B58B32
 .price_bx01_it:nth-child(2), .price_bx01_it:nth-child(3), .price_bx01_it:nth-child(4), .price_bx01_it:nth-child(5){min-height: 400px;display: flex;flex-direction: column;justify-content: center;}
 .price_txt03{font-size: 18px;text-align: center;font-weight: 200;line-height: 1.6em;color: #fff;margin-bottom: 25px;}
 .price_txt04{text-align: center;margin-bottom: 30px;}
-.price_txt04_sub01{font-size: 30px;color: #D5AD58;font-weight: 300;}
+.price_txt04_sub01{font-size: 30px;color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .price_txt04_sub02{font-size: 14px;color: #fff;font-weight: 200;}
 .price_txt05_sub02{font-family: 'Josefin Sans', sans-serif;font-weight: 300;font-size: 74px;line-height: 1em;color: #D5AD58;letter-spacing: 2px;}
 .price_txt05_sub01{font-size: 20px;font-weight: 200;color: #fff;}
-.price_item_txt{font-size: 40px;color: #fff;text-align: center;font-weight: 300;}
+.price_item_txt{font-size: 40px;color: #fff;text-align: center;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .price_item{padding: 15px 0;}
 .price_item_sub{font-size: 13px;color: #fff;font-weight: 200;}
 .payment_ttl{font-size: 42px;text-align: center;font-weight: 200;line-height: 1.5em;color: #fff;margin-bottom: 40px;}
-.payment_ttl_sub{font-weight: 300;color: #D5AD58;}
+.payment_ttl_sub{font-weight: 300;color: #D5AD58;font-family: "Noto Sans JP DemiLight";}
 .payment_ct{display: flex;flex-wrap: wrap;padding: 0 67px;margin-bottom: 95px;}
 .payment_it{width: calc((100% - 40px) / 2);margin-right: 40px;}
 .payment_it:last-child{margin-right: 0;}
 .payment_ct .payment_it{}
-.payment_sub01{font-size: 20px;color: #fff;font-weight: 200;text-align: center;margin-bottom: 30px;}
-.payment_sub02{color: #D5AD58;font-weight: 300;}
-.payment_fr{padding: 50px 70px;border:1px solid #D5AD58;margin-bottom: 20px;}
+.payment_sub01{font-size: 20px;color: #fff;font-weight: 200;text-align: center;margin-bottom: 36px;}
+.payment_sub02{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";padding: 0 5px;}
+.payment_fr{padding: 50px 70px;border:1px solid #D5AD58;margin-bottom: 14px;}
 .payment_it_sub{font-size: 74px;color:#D5AD58;font-family: 'Josefin Sans', sans-serif;font-weight: 300;position: relative;}
 .payment_list{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;}
 .payment_list_it_ico{font-size: 40px;font-weight: 200;text-align: center;color: #fff;padding: 0 10px;}
@@ -372,30 +374,30 @@ B58B32
 /**/
 
 /*case*/
-.case{background: #141b2b;padding: 100px 0;}
-.case_ttl01{text-align: center;font-weight: 200;color: #fff;font-size: 56px;line-height: 1.42em;margin-bottom: 50px;}
-.case_ttl01_sub01{font-weight: 300;color: #B58B32;}
+.case{background: #141b2b;padding: 80px 0;}
+.case_ttl01{text-align: center;font-weight: 200;color: #fff;font-size: 56px;line-height: 1.42em;margin-bottom: 35px;}
+.case_ttl01_sub01{font-weight: 300;color: #B58B32;font-family: "Noto Sans JP DemiLight";}
 .case_txt{font-size: 15px;text-align: left;line-height: 2em;color: #fff;font-weight: 200;max-width: 1000px;margin: 0 auto 70px auto;}
 .case_frame{}
 
-.case_bx_frame{background: #232e42;padding: 70px 150px;margin-bottom: 30px;}
-.case_num{font-family: 'Josefin Sans', sans-serif;font-weight: 400;line-height: 2.3em;color: #fff;text-align: center;}
-.case_ttl02{font-size: 42px;font-weight: 200;text-align: center;color: #fff;margin-bottom: 20px;}
-.case_sub{font-size: 18px;text-align: center;font-weight: 300;color: #B58B32;margin-bottom: 40px;}
+.case_bx_frame{background: #232e42;padding: 72px 150px 64px 150px;margin-bottom: 40px;}
+.case_num{font-family: 'Josefin Sans', sans-serif;font-weight: 200;line-height: 1em;color: #fff;text-align: center;font-size: 30px;margin-bottom: 10px;}
+.case_ttl02{font-size: 42px;font-weight: 200;text-align: center;color: #fff;margin-bottom: 17px;}
+.case_sub{font-size: 18px;text-align: center;font-weight: 300;color: #B58B32;margin-bottom: 36px;}
 .case_list{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;}
 .case_it{width: calc((100% - 100px) / 2);margin-right: 100px;position: relative;}
 .case_it:last-child{margin-right: 0;}
-.case_it:nth-child(1):before{position: absolute;content: "";width: 0;height: 0;border-style: solid;border-width: 10.5px 0 10.5px 12px;border-color: transparent transparent transparent #D5AD58;top: calc(50% - 11px);right:-55px;}
-.case_img{margin-bottom: 20px;}
+.case_it:nth-child(1):before{position: absolute;content: "";width: 0;height: 0;border-style: solid;border-width: 10.5px 0 10.5px 12px;border-color: transparent transparent transparent #D5AD58;top: calc(50% - 30px);right:-55px;}
+.case_img{margin-bottom: 33px;}
 .case_sub02{font-family: 'Josefin Sans', sans-serif;font-weight: 300;line-height:1em;color: #fff;text-align: center;font-size: 20px;}
-.case_info{display: flex;flex-wrap: wrap;justify-content: center;color: #fff;margin-bottom: 90px;}
+.case_info{display: flex;flex-wrap: wrap;justify-content: center;color: #fff;margin-bottom: 64px;}
 .case_info_it{width: 100%;display: flex;margin-bottom: 25px;align-items: center;}
 .case_info_list{width: calc(100% / 2);display: flex;line-height: 2em;flex-direction: column;}
-.case_info_it dt{width: 112px;font-size: 16px;color: #fff;font-weight: 200;}
-.case_info_it dd{width: calc(100% - 112px);color: #fff;font-weight: 200;font-size: 14px;border-left: 1px solid #fff;padding: 5px 0 5px 30px;}
+.case_info_it dt{width: 107px;font-size: 16px;color: #fff;font-weight: 200;}
+.case_info_it dd{width: calc(100% - 112px);color: #fff;font-weight: 200;font-size: 14px;border-left: 1px solid #fff;padding: 3px 0 3px 30px;}
 .case_info.mb0{margin-bottom: 0;}
 /*case*/
-.reason{padding: 100px 0;background:#141b2b;}
+.reason{padding: 87px 0;background:#141b2b;}
 .reason05{width: 100%;background: #141b2b;padding: 100px 0;position: relative;z-index: 1;}
 .reason05:before{position: absolute;content: "";width: 1600px;height: 450px;background: #232e42;top: 0;left: 0;z-index: -1;}
 .reason05_ct{display: flex;}
@@ -404,7 +406,7 @@ B58B32
 .reason05_ttl_sub{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;padding-bottom: 0px;text-align: center;}
 .reason05_ttl_sub01:before{position: absolute;content: "";width: 100px;height: 1px;background:#D5AD58;bottom: 0;left: calc(50% - 50px);}
 .reason05_ttl02{font-size: 42px;line-height: 1.5em;text-align: center;color: #fff;font-weight: 200;margin-bottom: 20px;}
-.reason05_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason05_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .reason05_img{margin-bottom: 30px;}
 .reason05_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 2em;}
 
@@ -415,19 +417,19 @@ B58B32
 
 
 .reason01_ttl{font-size: 56px;font-weight: 200;color: #fff;text-align: center;margin-bottom: 90px;line-height: 1.4em;}
-.reason_ttl_sub01{font-weight: 300;color:#D5AD58;}
+.reason_ttl_sub01{font-weight: 300;color:#D5AD58;font-family: "Noto Sans JP DemiLight";}
 .reason01_ttl_sub{margin-bottom: 60px;}
 .reason01_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
 .reason01_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
 .reason01_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
-.reason01_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason01_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .reason_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;}
 .reason01_ct01 .reason01_it:nth-child(1), .reason01_ct01 .reason01_it:nth-child(2), .reason01_ct01 .reason01_it:nth-child(4){width: 700px;}
-.reason01_ct01{position: relative;width: 1780px;margin-left: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason01_ct01{position: relative;width: 1800px;margin-left: auto;display: flex;align-items: center;margin-bottom: 80px;}
 .reason01_ct01 .reason01_it:nth-child(3){position: absolute;right: 0;top: 0;}
 .reason01_bx{width: 100%;}
-.reason01_l{margin-right: 100px;}
-
+.reason01_l{margin-right: 100px;width: 700px;}
+.reason01 .reason01_r{width: calc(100% - 800px);}
 
 .reason01_bx02{display: flex;width: 1620px;margin: 0 auto;align-items: center;}
 .reason01_bx02 .reason01_bx02_l{width: 620px;margin-right: 160px;}
@@ -441,7 +443,7 @@ B58B32
 .reason02_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
 .reason02_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
 .reason02_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
-.reason02_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason02_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .reason01_ct02{position: relative;width: 1900px;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
 .reason01_r{width: 790px;}
 .reason02_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;max-width: 690px;}
@@ -460,14 +462,14 @@ B58B32
 .reason03_ct .reason03_it:nth-child(3){position: absolute;right: 0;top: 0;}
 .reason03_bx{width: 100%;}
 .reason03_l{margin-right: 100px;}
-.reason03_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason03_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 
 /*reason04*/
-.reason04_ct{position: relative;width: 1940px;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason04_ct{position: relative;width: 1900px;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
 .reason04_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
 .reason04_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
 .reason04_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
-.reason04_ttl02_sub{color: #D5AD58;font-weight: 300;}
+.reason04_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .reason04_bx .reason04_l{width: 790px;order: 2;margin-left: 104px;}
 .reason04_bx .reason04_r{order: 1;width: 1000px;}
 
@@ -477,44 +479,71 @@ B58B32
 
 /*=============orthodontic===================*/
 
-.orthodontic{background:#141b2b;padding: 150px 0;}
+.orthodontic{background:#141b2b;padding: 112px 0 89px 0;}
 .orthodontic_ttl01_sub01{position: relative;}
-.orthodontic_ttl01_sub02{position: absolute;content: "";top: -40px;left: 50%;transform: translateX(-50%);font-size: 18px;font-weight: 200;width: 100%;letter-spacing: 0.5em;line-height: 1.4em;}
-.orthodontic_ttl01{font-size: 56px;color: #fff;font-weight: 200;text-align: center;line-height: 1.5em;}
-.orthodontic_ttl01_sub03{color: #D5AD58;font-weight: 300;}
-.orthodontic_ttl01{margin-bottom: 40px;}
-.orthodontic_txt{max-width: 1000px;margin: 0 auto;font-size: 15px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 65px;}
+.orthodontic_ttl01_sub02{position: absolute;content: "";top: -19px;left: 50%;transform: translateX(-50%);font-size: 18px;font-weight: 200;width: 100%;letter-spacing: 0.5em;line-height: 1.4em;}
+.orthodontic_ttl01{font-size: 56px;color: #fff;font-weight: 200;text-align: center;line-height: 1.5em;letter-spacing: 2px;}
+.orthodontic_ttl01_sub03{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
+.orthodontic_ttl01{margin-bottom: 26px;}
+.orthodontic_txt{max-width: 1000px;margin: 0 auto;font-size: 15px;color: #fff;font-weight: 200;line-height: 2em;margin-bottom: 73px;}
 .orthodontic_bx02{display: flex;}
 .orthodontic_bx02_it{width: calc(100% / 2);}
-.orthodontic_bx02_it:nth-child(1){background: url("../images/idx_img06.jpg") no-repeat;background-size: cover;padding:50px 35px 70px 310px;}
-.orthodontic_bx02_it:nth-child(2){background: url("../images/idx_img07.jpg") no-repeat;background-size: cover;padding:50px 270px 70px 35px;}
-.orthodontic_ttl02{font-size: 56px;color: #000;text-align: center;font-weight: 200;letter-spacing: -0.1em;margin-bottom: 35px;line-height: 1.4em;}
-.orthodontic_ttl02_sub01{font-weight: 300;}
-.orthodontic_list01 li{font-size: 15px;font-weight: 300;line-height: 1.5em;position: relative;padding-left: 20px;}
-.orthodontic_list01 li:before{position: absolute;content: "";width: 10px;height: 10px;left: 0;top: 8px;background: #000;}
-.orthodontic_ttl02_sub01.orthodontic_ttl03_sub01{color: #D5AD58;}
-.orthodontic_bx03{padding: 150px 0 0 0;}
-.orthodontic_bx03_ttl01{font-size: 70px;text-align: center;color: #fff;font-weight: 200;margin-bottom: 70px;}
+.orthodontic_bx02_it:nth-child(1){background: url("../images/idx_img06.jpg") no-repeat;background-size: cover;padding:72px 35px 50px 310px;}
+.orthodontic_bx02_it:nth-child(2){background: url("../images/idx_img07.jpg") no-repeat;background-size: cover;padding:73px 270px 48px 35px;}
+.orthodontic_ttl02{font-size: 56px;color: #000;text-align: center;font-weight: 200;letter-spacing: -0.1em;margin-bottom: 29px;line-height: 1.4em;}
+.orthodontic_ttl02_sub01{font-weight: 400;font-family: "Noto Sans JP DemiLight";}
+.orthodontic_list01 li{font-size: 15px;font-weight: 300;line-height:2.3em;position: relative;padding-left: 20px;}
+.orthodontic_list01 li:before{position: absolute;content: "";width: 10px;height: 10px;left: 0;top: 13px;background: #000;}
+.orthodontic_ttl02_sub01.orthodontic_ttl03_sub01{color: #D5AD58;font-family: "Noto Sans JP DemiLight";}
+.orthodontic_bx03{padding: 141px 0 0 0;}
+.orthodontic_bx03_ttl01{font-size: 70px;text-align: center;color: #fff;font-weight: 200;margin-bottom: 60px;}
 
-.orthodontic_bx03_ttl01_sub01{font-weight: 300;color:#D5AD58;}
-.orthodontic_bx03_ttl02{font-size: 50px;text-align: center;color: #fff;font-weight: 200;margin-bottom: 40px;line-height: 1.6em;}
-.orthodontic_bx03_ttl02_sub01{font-weight: 300;color: #D5AD58;}
+.orthodontic_bx03_ttl01_sub01{font-weight: 300;color:#D5AD58;font-family: "Noto Sans JP DemiLight";}
+.orthodontic_bx03_ttl02{font-size: 50px;text-align: center;color: #fff;font-weight: 200;margin-bottom: 28px;line-height: 1.6em;letter-spacing: 0.1em;}
+.orthodontic_bx03_ttl02_sub01{font-weight: 300;color: #D5AD58;font-family: "Noto Sans JP DemiLight";}
 .orthodontic_txt.mb0{margin-bottom: 0;}
+.orthodontic_bx02 .orthodontic_bx02_it:nth-child(2) .orthodontic_list01 li:before{background: #d5ad58;}
+/*disjointed*/
+.disjointed{background: url("../images/disjointed_bg.png") no-repeat;background-size: cover;padding: 87px 0;}
+.disjointed_ttl{font-size: 56px;font-weight: 200;line-height: 1.4em;color: #fff;letter-spacing: -3px;margin-bottom: 31px;}
+.disjointed_ttl_sub01{font-weight: 300;line-height: 1.4em;color: #D5AD58;letter-spacing: -1px;font-family: "Noto Sans JP DemiLight";}
+.disjointed_bx{width: 100%;display: flex;}
+.disjointed_l{width: 550px;}
+.disjointed_r{width: calc(100% - 550px);}
+.disjointed_txt01{font-size: 15px;color: #fff;line-height: 2em;font-weight: 200;margin-bottom: 84px;}
+.disjointed_ttl02{font-size: 36px;font-weight: 200;color: #fff;text-align: center;line-height: 1.55em;margin-bottom: 10px;}
+.disjointed_ttl02_sub{font-weight: 300;color: #D5AD58;letter-spacing: 1px;font-family: "Noto Sans JP DemiLight";}
+.disjointed_r_bx_ct{display: flex;flex-wrap: wrap;justify-content: center;}
 
-
-
-
-
-
-
-
-
+.disjointed_r_it{width: 372px;height: 372px;background: url("../images/disjointe_bg_ico.png") no-repeat;background-size: cover;display: flex;flex-direction: column;justify-content: center;}
+.disjointed_r_bx .disjointed_r_it:nth-child(1){max-width: 372px;width: 100%;margin-bottom: 36px;;margin-top: 5px;}
+.disjointed_r_bx .disjointed_r_it:nth-child(2), .disjointed_r_bx .disjointed_r_it:nth-child(3){width: calc((100% - 44px) / 2);margin-right: 44px;}
+.disjointed_r_bx .disjointed_r_it:last-child{margin-right: 0;}
+.disjointed_txt{font-size: 15px;color: #fff;line-height: 2em;font-weight: 200;max-width: 305px;margin: 0 auto;}
 
 
 
 
 /*=============orthodontic===================*/
 
+
+/*treatment*/
+.treatment{background: #141b2b;padding: 165px 0 100px 0;}
+.treatment_bx{display: flex;}
+.treatment_l{width: 700px;margin-right: 194px;}
+.treatment_r{max-width: 830px;}
+.treatment_ttl{font-size: 56px;color: #fff;line-height:1.45em;font-weight: 200;margin-bottom: 32px;letter-spacing: 3px;position: relative;font-family: "Noto Sans JP Thin";}
+.treatment_ttl:before{position: absolute;content: "";background:url("../images/idx_treament_ico.png") no-repeat;width: 202px;height: 202px;top: -155px;left: -141px;}
+.treatment_ttl_sub02{color: #D5AD58;line-height: 1.4em;font-weight: 200;position: relative;font-family: "Noto Sans JP DemiLight";}
+.treatment_ttl_sub02:before{position: absolute;content:"インビザライン";font-size: 18px;color: #fff;top: -48px;text-align: center;width: 100%;letter-spacing: 5px;letter-spacing: 11px;}
+.treatment_bx02{padding-left: 6px;}
+.treatment_ttl_sub01{display: none;}
+.treatment_txt01{color: #fff;font-size: 15px;font-weight: 200;margin-bottom: 108px;line-height: 2em;max-width: 710px;padding-left: 6px;}
+.treatment_bx01{max-width: 800px;margin-top: 89px;}
+.treatment_bx02_01 dd{color: #fff;font-weight: 200;line-height: 2em;width: calc(100% - 460px);font-size: 15px;}
+.treatment_bx02_01 dt{width: 390px;margin-right: 70px;}
+.treatment_bx02_01{display: flex;align-items: center;}
+/*treatment*/
 
 
 

@@ -3,7 +3,7 @@
 .sp420,
 .sp360,
 .sp{display: none;}
-.pc {}
+.pc {display: block;}
 @media screen and (min-width: 751px) {
 
 }
@@ -56,7 +56,16 @@
     /*==========================================================================*/
     /*                               MAIN                                       */
     /*==========================================================================*/
-    
+    .contact{display: none;}
+    .inner01{width: 100%;margin: 0 auto;}
+    .inner02{width: 100%;margin: 0 auto;}
+    .inner03{width: 100%;margin: 0 auto;}
+    .inner04{width: 100%;margin: 0 auto;}
+    .inner05{width: 100%;margin: 0 auto;}
+    .inner06{width: 100%;margin: 0 auto;}
+    .inner07{width: 100%;margin: 0 auto;}
+    .inner08{width: 100%;margin: 0 auto;}
+    .inner09{width: 100%;margin: 0 auto;}
 }
 
 @media screen and (max-width: 560px) {

@@ -49,6 +49,21 @@ th li,th dt,th dd,th input,th select,th button,th textarea,th p,th th,th td,
 td li,td dt,td dd,td input,td select,td button,td textarea,td p,td th,td td,
 p input{ font-size: 100%; }
 
-
-
-
+@font-face {
+  font-family: "Noto Sans JP";
+    src: url("../fonts/NotoSansCJKjp-Thin.otf");
+}
+/*
+@font-face {
+  font-family: "Noto Sans JP Thin";
+    src: url("../fonts/NotoSansCJKjp-Thin.otf");
+}
+*/
+@font-face {
+  font-family: "Noto Sans JP DemiLight";
+    src: url("../fonts/NotoSansCJKjp-DemiLight.otf");
+}
+@font-face {
+  font-family: "Noto Sans JP Light";
+    src: url("../fonts/NotoSansCJKjp-Light.otf");
+}
