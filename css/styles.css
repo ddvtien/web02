@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import "base.css";
 @import "fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
 /*@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');*/
 /*==========================================================================*/
 /*//////////////////////////////////////////////////////////////////////////*/
@@ -155,16 +156,16 @@ nav .tel span{font-size: 12px;display: block;letter-spacing: 0.05em;padding-left
 /*                               Main                                       */
 /*==========================================================================*/
 #main{position: relative;z-index: 2}
-.inner01{width: 1580px;margin: 0 auto;}
-.inner02{width: 1290px;margin: 0 auto;}
-.inner03{width: 1536px;margin: 0 auto;}
-.inner04{width: 1330px;margin: 0 auto;}
-.inner05{width: 865px;margin: 0 auto;}
-.inner06{width: 1200px;margin: 0 auto;}
-.inner07{width: 1334px;margin: 0 auto;}
-.inner08{width: 1600px;margin: 0 auto;}
-.inner09{width: 1243px;margin: 0 auto;}
-.inner10{width: 1330px;margin: 0 auto;}
+.inner01{width: 1640px;margin: 0 auto;max-width: 100%;}
+.inner02{width: 1290px;margin: 0 auto;max-width: 100%;}
+.inner03{width: 1536px;margin: 0 auto;max-width: 100%;}
+.inner04{width: 1334px;margin: 0 auto;max-width: 100%;}
+.inner05{width: 865px;margin: 0 auto;max-width: 100%;}
+.inner06{width: 1200px;margin: 0 auto;max-width: 100%;}
+.inner07{width: 1334px;margin: 0 auto;max-width: 100%;}
+.inner08{width: 1600px;margin: 0 auto;max-width: 100%;}
+.inner09{width: 1243px;margin: 0 auto;max-width: 100%;}
+.inner10{width: 1334px;margin: 0 auto;max-width: 100%;}
 .ttl{}
 .ttl h3{line-height: 1.4em;font-size: 30px;color:#073265;margin-bottom: 0px;}
 .ttl p{font-size: 16px;font-weight: bold;letter-spacing: 0.075em}
@@ -182,34 +183,35 @@ B58B32
 .section_01{background: #141b2b;}
 .section_01_bx{display: flex;}
 .sec_txt{font-family:"Noto Sans JP", sans-serif;color: #fff;line-height: 3.3em;font-size: 18px;margin-bottom: 30px;}
-.section_01_l{width: 546px; margin-right: 114px;}
-.section_01_r{width: calc(100% - 660px);}
+.section_01_l{width: 560px; margin-right: 133px;}
+.section_01_r{width: calc(100% - 693px);}
 .sec01_img{position: relative;}
-.sec01_img.pc .sec01_img01{position: relative;width: 627px;}
-.sec01_img.pc .sec01_img02{position: absolute;content: "";bottom: 93px;right:-44px;width: 390px;height: 390px;}
+
 /*end section 01*/
 
 /*contact*/
-.contact{background: #232e42;padding: 74px 0;}
+.contact{background: #232e42;padding: 74px 0 78px 0;}
 .contact_item_bx{text-align: center;}
 .contact_bx{display: flex;align-items: center;}
-.contact_txt{font-weight: 100;font-size: 18px;color: #fff;}
-.contact_phone .contact_phone_ico{font-family: 'Josefin Sans', sans-serif;font-size: 45px;color: #fff;position: relative;}
-.contact_phone .contact_phone_ico:before{position: absolute;content: "";background: url("../images/ico_phone.svg") no-repeat;width: 23px;height: 30px;top: calc(50% - 17px);left: -34px;}
-.contact_h{font-size: 15px;color: #fff;}
-.contact_link01{font-size: 18px;font-weight: 400;color: #fff;position: relative;margin-bottom: 26px;}
+.contact_txt{font-weight: 100;font-size: 18px;color: #fff;padding-bottom: 5px;}
+.contact_phone a{font-family: 'Josefin Sans', sans-serif;font-size: 45px;color: #fff;position: relative;letter-spacing: 0.1em;line-height: 1.2em;}
+.contact_phone_ico{position: relative;top: -6px;padding-right: 10px;left: 4px;}
+.contact_phone{margin-bottom: 0;}
+.contact_h{font-size: 15px;color: #fff;letter-spacing: 0.8px;}
+.contact_link01{font-size: 18px;font-weight: 400;color: #fff;position: relative;margin-bottom: 26px;letter-spacing: -1px;}
 .contact_link01:before{position: absolute;content: "";width: 0;height: 0;border-style: solid;border-width: 6px 5px 0 5px;border-color: #d5ad56 transparent transparent transparent;left: 50%;transform: translateY(-50%);bottom:-17px;}
 .contact_link01_sub01{color: #D5AD58;}
 .contact_link02{width: 100%;}
-.contact_link02 a{font-size:28px;font-weight: 400;color: #fff;background: #D5AD58;border-radius: 45px;width: 100%;display: block;padding: 23px 0;}
+.contact_link02 a{font-size:28px;font-weight: 400;color: #fff;background: #D5AD58;border-radius: 45px;width: 100%;display: block;padding: 26px 0;font-family: "Noto Sans JP DemiLight";letter-spacing: 0.13em;}
+.contact_link02:hover{box-shadow: 0px 15px 20px rgba(92, 92, 92, 0.4);transform: translateY(-7px);border-radius: 45px;}
 .contact_bx .contact_item{margin-right: 20px;}
-.contact_bx .contact_item:nth-child(1){margin-right: 40px;}
-.contact_bx .contact_item:nth-child(2){width: 350px;}
-.contact_bx .contact_item:nth-child(3){width: 350px;}
+.contact_bx .contact_item:nth-child(1){margin-right: 48px;width: 424px;padding-top: 10px;}
+.contact_bx .contact_item:nth-child(2){width: 360px;margin-right: 20px;}
+.contact_bx .contact_item:nth-child(3){width: 360px;margin-right: 20px;}
 .contact_bx .contact_item:nth-child(3) a{background: #b48b31;}
-.contact_bx .contact_item:last-child{margin-right: 0;width: 100px;}
+.contact_bx .contact_item:last-child{margin-right: 0;width: auto;}
 .contact_bx .contact_item:last-child .contact_link02 a{background: none;padding: 0;}
-.contact_link02_ico{line-height: 0;position: relative;top: -2px;padding-right: 10px;}
+.contact_link02_ico{position: relative;top: -2px;left: 0;margin-right: 12px;}
 .contact_ttl{font-size: 56px;color: #fff;text-align: center;font-weight: 200;margin-bottom: 84px;}
 .contact_ttl_sub{color: #D5AD58;font-weight: 300;}
 .contact.contact_cl{background: #141b2b;}
@@ -317,8 +319,8 @@ B58B32
 .price_ttl01_sub01{font-weight: 300;color: #B58B32;font-family: "Noto Sans JP DemiLight";}
 .price_txt{font-size: 15px;text-align: left;line-height: 2em;color: #fff;font-weight: 200;max-width: 1000px;margin: 0 auto 70px auto;}
 .price_bx01{display: flex;}
-.price_bx01_l{width: 400px;margin-right: 144px;}
-
+.price_bx01_l{width: 400px;margin-right: 144px;position: relative;}
+.price_bx01_l:before{position: absolute;content: "";background: url("../images/price_ico.png") no-repeat;width: 65px;height: 65px;right: -100px;top: calc(50% - 46px);}
 .price_ct01{border: 1px solid #d5ad58;padding:60px 46px 44px 42px;margin-bottom: 35px;}
 
 .price_ct01_note{margin-bottom: 5px;}
@@ -329,7 +331,7 @@ B58B32
 .price_ico_p{font-size: 56px;color: #D5AD58;font-weight: 200;text-align: center;line-height: 1.2em;margin-bottom: 0;}
 .price_txt01{text-align: center;}
 .price_txt01_sub01{font-size: 28px;font-weight: 200;color: #fff;line-height: 2.2em;}
-.price_txt01_sub02{font-family: 'Josefin Sans', sans-serif;font-weight: 300;font-size: 74px;line-height: 1em;color: #D5AD58;letter-spacing: 2px;}
+.price_txt01_sub02{font-family: 'Josefin Sans Light', sans-serif;font-weight: 300;font-size: 74px;line-height: 1em;color: #D5AD58;letter-spacing: 2px;}
 .price_txt01_sub03{font-weight: 200;color: #fff;font-size: 30px;padding-left: 10px;}
 .price_txt02{font-size: 15px;color: #fff;line-height: 2em;font-weight: 200;}
 .price_bx01_r{width: calc(100% - 544px);}
@@ -374,7 +376,7 @@ B58B32
 /**/
 
 /*case*/
-.case{background: #141b2b;padding: 80px 0;}
+.case{background: #141b2b;padding: 80px 0 62px 0;}
 .case_ttl01{text-align: center;font-weight: 200;color: #fff;font-size: 56px;line-height: 1.42em;margin-bottom: 35px;}
 .case_ttl01_sub01{font-weight: 300;color: #B58B32;font-family: "Noto Sans JP DemiLight";}
 .case_txt{font-size: 15px;text-align: left;line-height: 2em;color: #fff;font-weight: 200;max-width: 1000px;margin: 0 auto 70px auto;}
@@ -397,15 +399,15 @@ B58B32
 .case_info_it dd{width: calc(100% - 112px);color: #fff;font-weight: 200;font-size: 14px;border-left: 1px solid #fff;padding: 3px 0 3px 30px;}
 .case_info.mb0{margin-bottom: 0;}
 /*case*/
-.reason{padding: 87px 0;background:#141b2b;}
-.reason05{width: 100%;background: #141b2b;padding: 100px 0;position: relative;z-index: 1;}
-.reason05:before{position: absolute;content: "";width: 1600px;height: 450px;background: #232e42;top: 0;left: 0;z-index: -1;}
+.reason{padding: 87px 0 96px 0;background:#141b2b;}
+.reason05{width: 100%;background: #141b2b;padding: 79px 0;position: relative;z-index: 1;}
+.reason05:before{position: absolute;content: "";width: 1552px;height: 450px;background: #232e42;top: 0;left: 0;z-index: -1;}
 .reason05_ct{display: flex;}
 .reason05_it{width: calc((100% - 99px) / 2);margin-right: 99px;}
 .reason05_it:last-child{margin-right: 0;}
-.reason05_ttl_sub{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;padding-bottom: 0px;text-align: center;}
+.reason05_ttl_sub{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.2em;font-weight: 200;padding-bottom: 0px;text-align: center;margin-bottom: 36px;}
 .reason05_ttl_sub01:before{position: absolute;content: "";width: 100px;height: 1px;background:#D5AD58;bottom: 0;left: calc(50% - 50px);}
-.reason05_ttl02{font-size: 42px;line-height: 1.5em;text-align: center;color: #fff;font-weight: 200;margin-bottom: 20px;}
+.reason05_ttl02{font-size: 42px;line-height: 1.5em;text-align: center;color: #fff;font-weight: 200;margin-bottom: 30px;}
 .reason05_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .reason05_img{margin-bottom: 30px;}
 .reason05_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 2em;}
@@ -419,59 +421,65 @@ B58B32
 .reason01_ttl{font-size: 56px;font-weight: 200;color: #fff;text-align: center;margin-bottom: 90px;line-height: 1.4em;}
 .reason_ttl_sub01{font-weight: 300;color:#D5AD58;font-family: "Noto Sans JP DemiLight";}
 .reason01_ttl_sub{margin-bottom: 60px;}
-.reason01_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
-.reason01_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
+.reason01_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 300;letter-spacing: 0.7px;}
+.reason01_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -224px;}
 .reason01_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
 .reason01_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .reason_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;}
 .reason01_ct01 .reason01_it:nth-child(1), .reason01_ct01 .reason01_it:nth-child(2), .reason01_ct01 .reason01_it:nth-child(4){width: 700px;}
-.reason01_ct01{position: relative;width: 1800px;margin-left: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason01_ct01{position: relative;margin-left: auto;display: flex;align-items: center;margin-bottom: 80px;}
 .reason01_ct01 .reason01_it:nth-child(3){position: absolute;right: 0;top: 0;}
 .reason01_bx{width: 100%;}
-.reason01_l{margin-right: 100px;width: 700px;}
-.reason01 .reason01_r{width: calc(100% - 800px);}
+.reason01_l{margin-right: 100px;width: 700px;margin-left: 150px;}
+.reason01 .reason01_r{width: 1000px;height: 620px;background: url("../images/idx_img08.jpg") no-repeat;background-size: cover;}
 
-.reason01_bx02{display: flex;width: 1620px;margin: 0 auto;align-items: center;}
+.reason01_bx02{display: flex;width: 1595px;margin: 0 auto;align-items: center;}
 .reason01_bx02 .reason01_bx02_l{width: 620px;margin-right: 160px;}
 .reason01_bx02 .reason01_bx02_r{width: calc(100% - 780px);max-width: 715px;}
 
 
 .reason02{position: relative;z-index: 1;}
-.reason02:before{position: absolute;content: "";width: 1600px;top: 150px;right:0;background: #232e42;z-index: -1;height: 100%;}
+.reason02:before{position: absolute;content: "";width: 1549px;top: 150px;right:0;background: #232e42;z-index: -1;height: 100%;}
 .reason02_bx{position: relative;width: 100%;}
-.reason02_logo{text-align: right;width: 100%;}
-.reason02_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
-.reason02_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
+.reason02_logo{text-align: right;width: 100%;position: relative;top: 0;right: 130px;}
+.reason02_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 300;letter-spacing: 0.7px;}
+.reason02_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -220px;}
 .reason02_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
 .reason02_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
-.reason01_ct02{position: relative;width: 1900px;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
-.reason01_r{width: 790px;}
+.reason02_ct02{position: relative;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason02_ct02 .reason02_l{width: 1000px;margin-right: 120px;height: 620px;background: url("../images/idx_img11.jpg") no-repeat top right;background-size: cover;}
+.reason02_ct02 .reason02_r{margin-right: 7.85%;}
+
 .reason02_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;max-width: 690px;}
 .reason02_bx02{width: 1616px;margin: 0 auto;display: flex;align-items: center;}
 .reason02_bx02 .reason02_bx02_l{width: 620px;order: 2;margin-left: 150px;}
 .reason02_bx02 .reason02_bx02_r{order: 1;width: 840px;padding-left: 150px;}
 
 /*reason03*/
-.reason03{padding: 200px 0 100px 0;}
+.reason03{padding: 200px 0 100px 0;margin-top: 103px;}
 .reason03_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
 .reason03_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
 .reason03_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
 .reason03_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;}
 .reason03_ct .reason03_it:nth-child(1), .reason03_ct .reason03_it:nth-child(2), .reason03_ct .reason03_it:nth-child(4){width: 700px;}
-.reason03_ct{position: relative;width: 1780px;margin-left: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason03_ct{position: relative;margin-left: auto;display: flex;align-items: center;margin-bottom: 50px;}
 .reason03_ct .reason03_it:nth-child(3){position: absolute;right: 0;top: 0;}
 .reason03_bx{width: 100%;}
-.reason03_l{margin-right: 100px;}
+.reason03_l{margin-right: 100px;padding-left: 150px;}
 .reason03_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
+.reason03_r{width: 1000px;height: 620px;background:url("../images/idx_img13.jpg") no-repeat top left;background-size: cover;}
+
+
 
 /*reason04*/
-.reason04_ct{position: relative;width: 1900px;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
+.reason04{margin-bottom: 150px;}
+.reason04_ct{position: relative;margin-right: auto;display: flex;align-items: center;margin-bottom: 80px;}
 .reason04_ttl_sub01{font-size: 30px;font-family: 'Josefin Sans', sans-serif;position: relative;color: #fff;line-height: 2.3em;font-weight: 200;}
 .reason04_ttl_sub01:before{position: absolute;content: "";width: 200px;height: 1px;background:#D5AD58;top: 50%;right: -230px;}
 .reason04_ttl02{font-size: 56px;color: #fff;font-weight: 200;line-height: 1.4em;margin-bottom: 50px;letter-spacing: -0.1em;}
 .reason04_ttl02_sub{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
-.reason04_bx .reason04_l{width: 790px;order: 2;margin-left: 104px;}
-.reason04_bx .reason04_r{order: 1;width: 1000px;}
+.reason04_bx .reason04_l{order: 2;margin-left: 118px;margin-right: 160px;}
+.reason04_bx .reason04_r{order: 1;width: 1000px;height: 620px;background: url("../images/idx_img14.jpg") no-repeat top right;background-size: cover;}
 
 
 .reason04_txt{font-size: 15px;color: #fff;font-weight: 200;line-height: 1.5em;max-width: 690px;}
@@ -482,7 +490,7 @@ B58B32
 .orthodontic{background:#141b2b;padding: 112px 0 89px 0;}
 .orthodontic_ttl01_sub01{position: relative;}
 .orthodontic_ttl01_sub02{position: absolute;content: "";top: -19px;left: 50%;transform: translateX(-50%);font-size: 18px;font-weight: 200;width: 100%;letter-spacing: 0.5em;line-height: 1.4em;}
-.orthodontic_ttl01{font-size: 56px;color: #fff;font-weight: 200;text-align: center;line-height: 1.5em;letter-spacing: 2px;}
+.orthodontic_ttl01{font-size: 56px;color: #fff;font-weight: 200;text-align: center;line-height: 1.5em;letter-spacing: -2px;}
 .orthodontic_ttl01_sub03{color: #D5AD58;font-weight: 300;font-family: "Noto Sans JP DemiLight";}
 .orthodontic_ttl01{margin-bottom: 26px;}
 .orthodontic_txt{max-width: 1000px;margin: 0 auto;font-size: 15px;color: #fff;font-weight: 200;line-height: 2em;margin-bottom: 73px;}
@@ -495,7 +503,8 @@ B58B32
 .orthodontic_list01 li{font-size: 15px;font-weight: 300;line-height:2.3em;position: relative;padding-left: 20px;}
 .orthodontic_list01 li:before{position: absolute;content: "";width: 10px;height: 10px;left: 0;top: 13px;background: #000;}
 .orthodontic_ttl02_sub01.orthodontic_ttl03_sub01{color: #D5AD58;font-family: "Noto Sans JP DemiLight";}
-.orthodontic_bx03{padding: 141px 0 0 0;}
+.orthodontic_bx03{padding: 141px 0 0 0;position: relative;}
+.orthodontic_bx03:before{position: absolute;content: "";width: 0;height: 0;border-style: solid;border-width: 18px 18px 0 18px;border-color: #d5ad58 transparent transparent transparent;left: 50%;transform: translateX(-50%);top: 50px;}
 .orthodontic_bx03_ttl01{font-size: 70px;text-align: center;color: #fff;font-weight: 200;margin-bottom: 60px;}
 
 .orthodontic_bx03_ttl01_sub01{font-weight: 300;color:#D5AD58;font-family: "Noto Sans JP DemiLight";}
@@ -504,7 +513,7 @@ B58B32
 .orthodontic_txt.mb0{margin-bottom: 0;}
 .orthodontic_bx02 .orthodontic_bx02_it:nth-child(2) .orthodontic_list01 li:before{background: #d5ad58;}
 /*disjointed*/
-.disjointed{background: url("../images/disjointed_bg.png") no-repeat;background-size: cover;padding: 87px 0;}
+.disjointed{background: url("../images/disjointed_bg.png") no-repeat;background-size: cover;padding: 87px 0 102px 0;}
 .disjointed_ttl{font-size: 56px;font-weight: 200;line-height: 1.4em;color: #fff;letter-spacing: -3px;margin-bottom: 31px;}
 .disjointed_ttl_sub01{font-weight: 300;line-height: 1.4em;color: #D5AD58;letter-spacing: -1px;font-family: "Noto Sans JP DemiLight";}
 .disjointed_bx{width: 100%;display: flex;}
@@ -516,8 +525,26 @@ B58B32
 .disjointed_r_bx_ct{display: flex;flex-wrap: wrap;justify-content: center;}
 
 .disjointed_r_it{width: 372px;height: 372px;background: url("../images/disjointe_bg_ico.png") no-repeat;background-size: cover;display: flex;flex-direction: column;justify-content: center;}
-.disjointed_r_bx .disjointed_r_it:nth-child(1){max-width: 372px;width: 100%;margin-bottom: 36px;;margin-top: 5px;}
-.disjointed_r_bx .disjointed_r_it:nth-child(2), .disjointed_r_bx .disjointed_r_it:nth-child(3){width: calc((100% - 44px) / 2);margin-right: 44px;}
+.disjointed_r_bx .disjointed_r_it:nth-child(1){max-width: 372px;width: 100%;margin-bottom: 36px;margin-top: 5px;}
+/*.disjointed_r_bx .disjointed_r_it:nth-child(2), .disjointed_r_bx .disjointed_r_it:nth-child(3){width: calc((100% - 44px) / 2);margin-right: 44px;}*/
+
+.disjointed_r_bx .disjointed_r_bx_ct:nth-child(2){flex-wrap: nowrap;}
+.disjointed_r_bx .disjointed_r_bx_ct:nth-child(2) .disjointed_r_it:nth-child(1){margin-right: 40px;}
+.disjointed_r_bx .disjointed_r_bx_ct:nth-child(2) .disjointed_r_it .disjointed_ttl02{margin-top: 18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .disjointed_r_bx .disjointed_r_it:last-child{margin-right: 0;}
 .disjointed_txt{font-size: 15px;color: #fff;line-height: 2em;font-weight: 200;max-width: 305px;margin: 0 auto;}
 
@@ -529,9 +556,12 @@ B58B32
 
 /*treatment*/
 .treatment{background: #141b2b;padding: 165px 0 100px 0;}
-.treatment_bx{display: flex;}
-.treatment_l{width: 700px;margin-right: 194px;}
-.treatment_r{max-width: 830px;}
+.treatment_bx{display: flex;margin: 0 auto;}
+.treatment_l{width: 700px;height: 900px;background: url("../images/idx_img03.jpg") no-repeat;background-size: cover;margin-right: 200px;background-position: top right;}
+.treatment_r{width: 900px;margin-right: 223px;}
+
+
+
 .treatment_ttl{font-size: 56px;color: #fff;line-height:1.45em;font-weight: 200;margin-bottom: 32px;letter-spacing: 3px;position: relative;font-family: "Noto Sans JP Thin";}
 .treatment_ttl:before{position: absolute;content: "";background:url("../images/idx_treament_ico.png") no-repeat;width: 202px;height: 202px;top: -155px;left: -141px;}
 .treatment_ttl_sub02{color: #D5AD58;line-height: 1.4em;font-weight: 200;position: relative;font-family: "Noto Sans JP DemiLight";}
@@ -539,7 +569,7 @@ B58B32
 .treatment_bx02{padding-left: 6px;}
 .treatment_ttl_sub01{display: none;}
 .treatment_txt01{color: #fff;font-size: 15px;font-weight: 200;margin-bottom: 108px;line-height: 2em;max-width: 710px;padding-left: 6px;}
-.treatment_bx01{max-width: 800px;margin-top: 89px;}
+.treatment_bx01{margin-top: 89px;}
 .treatment_bx02_01 dd{color: #fff;font-weight: 200;line-height: 2em;width: calc(100% - 460px);font-size: 15px;}
 .treatment_bx02_01 dt{width: 390px;margin-right: 70px;}
 .treatment_bx02_01{display: flex;align-items: center;}
